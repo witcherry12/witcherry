@@ -1,0 +1,20 @@
+.menu-detail {
+    background: transparent !important;
+    box-shadow: none !important;
+}
+
+.card-detail {
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(26, 27, 29, 0.00) 0%, #1A1B1D 100%);
+    margin: 0px 25px 25px 25px;
+    padding: 20px;
+}
+
+.list-detail {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    padding: 0px;
+
+}

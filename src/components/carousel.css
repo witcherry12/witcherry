@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.card-header>.title {
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.card-header>.gray-p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.img-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+}
+
+.container-price {
+
+    border-radius: 12px;
+    background: #8D2B22;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    padding: 0%;
+    height: 32px;
+    text-align: center;
+    width: 30%;
+}
+
+.container-price>p {
+    margin: 5px
+}
+
+.slick-prev,
+.slick-next {
+    display: none !important;
+}
+
+
+/* Carousel  promociones */
+.container-promo {
+    margin-top: 150px;
+    width: 100%;
+    height: 87px;
+    border-radius: var(--Root-values-16, 16px);
+    background: var(--Background-Background-200, #212020);
+
+}
+
+.item-promo {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
