@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://luispf1290.github.io/witcherry/",
+  "homepage": "https://witcherry12.github.io/witcherry/",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
