@@ -3,7 +3,6 @@ import { CarouselDish, Paragraph, PromoCarousel, Title } from "../components"
 import { Container } from "@mui/material"
 import waffles from "../assets/waffles-witcherry.svg";
 import { PropsItems } from "../components/ItemCarousel";
-type Props = {}
 
 
 const itemCarousel1: PropsItems[] = [
@@ -44,7 +43,7 @@ const itemCarousel1: PropsItems[] = [
     },
 ];
 
-export const Main = (props: Props) => {
+export const Main = () => {
     return (
         <>
             <Fade>

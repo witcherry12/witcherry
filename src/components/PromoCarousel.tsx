@@ -1,9 +1,7 @@
 import Slider from "react-slick"
 import { Title } from "./Title";
 
-type Props = {}
-
-export const PromoCarousel = (props: Props) => {
+export const PromoCarousel = () => {
 
     const settings = {
         dots: false,
