@@ -37,7 +37,7 @@ export const ItemCarousel = ({
           backgroundColor: "#1A1B1D",
           padding: "16px",
           boxShadow: "0px 0.1px 3.1px 0px #611C16",
-          height: "350px"
+          borderRadius: "18px"
         }}
       >
         <div className="card-header">
