@@ -52,12 +52,10 @@
 
 /* Carousel  promociones */
 .container-promo {
-    margin-top: 150px;
     width: 100%;
     height: 87px;
     border-radius: var(--Root-values-16, 16px);
     background: var(--Background-Background-200, #212020);
-
 }
 
 .item-promo {
