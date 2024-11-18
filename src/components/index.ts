@@ -1,3 +1,4 @@
+export { CardRecomendaciones } from "./CardRecomendaciones";
 export { CarouselDish } from "./CarouselDish";
 export { ItemCarousel } from "./ItemCarousel";
 export { MainListItems } from "./MainListItems";
