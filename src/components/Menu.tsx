@@ -7,16 +7,17 @@ import bebidas from "../assets/menu/bebidas-witcherry.svg";
 //import promos from "../assets/menu/promos-witcherry.svg";
 import waffles from "../assets/menu/waffles-witcherry.svg";
 import "./menu.css";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import { Slide } from "react-awesome-reveal";
 
 export const Menu = () => {
   const [toggle, setToggle] = useState<boolean>(true);
   const refNav = useRef<HTMLDivElement>(null);
+  const navigate = useNavigate();
 
-  // const handleClickActive = () => {
-  //   setToggle(!toggle);
-  // };
+  const handleClickLinkHome = () => {
+     navigate("/menu/main", {replace:true});
+  };
 
   useEffect(() => {
     const handleScroll = () => {
@@ -38,7 +39,7 @@ export const Menu = () => {
         <Slide>
           <button
             className={`button-nav ${!toggle ? "btn-active-border" : ""}`}
-            // onClick={handleClickActive}
+            onClick={handleClickLinkHome}
           >
             <div className="cont-buton">
               <img src={logo} className="logo" />
