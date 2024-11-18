@@ -1,7 +1,6 @@
 import Slider from "react-slick";
 import { ItemCarousel, PropsItems } from "./ItemCarousel";
 import { useLocation } from "react-router-dom";
-import { DetailTemplate } from "../templates/DetailTemplate";
 import { CardRecomendaciones } from "./CardRecomendaciones";
 
 interface PropsCarousel {
