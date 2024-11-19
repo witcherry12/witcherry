@@ -96,6 +96,16 @@ body {
   line-height: 120%;
 }
 
+.p-white {
+  color: #FFF;
+  font-feature-settings: 'sups' on;
+  font-family: 'Poppins';
+  font-size: 12.346px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+}
+
 .list-solid {
   list-style-type: disc;
   /* padding-left: 20px; */
