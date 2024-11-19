@@ -1,4 +1,12 @@
-import dish  from  '../assets/waffles-witcherry.svg'
+import waffleCebolla from "../assets/paltillos/cebolla.svg"
+import waffleBufalo from "../assets/paltillos/tender.svg"
+import waffleSandwish from "../assets/paltillos/sandwish.svg"
+import waffleBruja from "../assets/paltillos/breakfast.svg"
+import waffleMaple from "../assets/paltillos/maple.svg"
+import waffleChocoBanana from "../assets/paltillos/chocoBanana.svg"
+import waffleFrutosRojos from "../assets/paltillos/frutosRojos.svg"
+import waffleManzana from "../assets/paltillos/manzana.svg"
+import waffleBrownie from "../assets/paltillos/brownie.svg"
 
 export interface propsDish {
     id: number,
@@ -14,18 +22,18 @@ export interface propsDish {
 export const dishElements: propsDish[] = [
     {
         id:1,
-        name: 'Caramelonions',
+        name: 'Cebolla Encantada',
         tipo: 'Salado',
-        img:dish,
+        img:waffleCebolla,
         precio:'125.00',
         ingredientes: 'Queso Manchego | cebolla caramelizada',
         recomendaciones: ['Cafe', 'Malteada', 'frape']
     },
     {
         id:2,
-        name: 'Sangre de Bufalo',
+        name: 'Espectro Picante',
         tipo: 'Salado',
-        img:dish,
+        img:waffleBufalo,
         precio:'195.00',
         ingredientes: 'Fajitas de pollo con bufalo | Dip queso philadelphia con jalapeño | Moras Azules',
         recomendaciones: ['Cafe', 'Malteada', 'frape']
@@ -34,34 +42,34 @@ export const dishElements: propsDish[] = [
         id:3,
         name: 'Wafsandwish',
         tipo: 'Salado',
-        img:dish,
+        img:waffleSandwish,
         precio:'125.00',
         ingredientes: 'Jamon | Queso Manchego',
         recomendaciones: ['Cafe', 'Malteada', 'frape']
     },
     {
         id:4,
-        name: 'Americano',
+        name: 'Receta de la Bruja',
         tipo: 'Salado',
-        img:dish,
+        img:waffleBruja,
         precio:'195.00',
         ingredientes: 'Huevo | Tocino | Miel maple | Frutos rojos',
         recomendaciones: ['Cafe', 'Malteada', 'frape']
     },
     {
         id:5,
-        name: 'Hoguera',
+        name: 'Poción de Maple ',
         tipo: 'Salado',
-        img:dish,
+        img:waffleMaple,
         precio:'195.00',
         ingredientes: 'Pollo Frito | Miel de Maple',
         recomendaciones: ['Cafe', 'Malteada', 'frape']
     },
     {
         id:6,
-        name: 'Chocobanana',
+        name: 'Delirio de Conejo',
         tipo: 'Dulce',
-        img:dish,
+        img:waffleChocoBanana,
         precio:'170.00',
         ingredientes: 'Nutela | Platano | Almendra | Conejito | Helado de Vainilla | Jarabe de Chocolate',
         recomendaciones: ['Cafe', 'Malteada', 'frape']
@@ -70,25 +78,25 @@ export const dishElements: propsDish[] = [
         id:7,
         name: 'Bosque Rojo',
         tipo: 'Dulce',
-        img:dish,
+        img:waffleFrutosRojos,
         precio:'170.00',
         ingredientes: 'Frutos rojos | Miel de maple | Helado de s´mores',
         recomendaciones: ['Cafe', 'Malteada', 'frape']
     },
     {
         id:8,
-        name: 'Tentacion de Eva',
+        name: 'Manzana Mística',
         tipo: 'Dulce',
-        img:dish,
+        img: waffleManzana,
         precio:'160.00',
         ingredientes: 'Manzana Caramelizada | Granillo de nuez | Caramelo liquido | Helado de macadamia',
         recomendaciones: ['Cafe', 'Malteada', 'frape']
     },
     {
         id:9,
-        name: 'Sombra lunar',
+        name: 'Media Noche',
         tipo: 'Dulce',
-        img:dish,
+        img:waffleBrownie,
         precio:'195.00',
         ingredientes: 'Wafle de chocolate | Brownie | Zarzamoras | jarabe de chocolate | Helado de vino y frutos rojos',
         recomendaciones: ['Cafe', 'Malteada', 'frape']
