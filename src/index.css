@@ -25,6 +25,21 @@ body {
   font-family: "Roboto";
 }
 
+.lista-tajeta {
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+.item-tarjeta {
+  display: flex;
+  align-items: center;
+  gap: 10px 20px;
+}
+
+li {
+  color: white;
+}
+
 .title-big {
   color: var(--Base, #ECECEC);
   font-family: Roboto;
@@ -85,15 +100,23 @@ body {
   text-transform: capitalize;
 }
 
-.sub-text {
+.sub-text,
+.sub-text-sm {
   color: #FFF;
   text-align: right;
   font-feature-settings: 'sups' on;
   font-family: 'Poppins';
-  font-size: 12.346px;
   font-style: normal;
   font-weight: 600;
   line-height: 120%;
+}
+
+.sub-text {
+  font-size: 12.346px;
+}
+
+.sub-text-sm {
+  font-size: 6.346px;
 }
 
 .p-white {
@@ -104,6 +127,7 @@ body {
   font-style: normal;
   font-weight: 600;
   line-height: 120%;
+  margin: 0px 0px;
 }
 
 .list-solid {
@@ -170,4 +194,30 @@ h1 {
 .img-card2 {
   position: absolute;
   transform: translate(231px, -21px);
+}
+
+.cont-santa {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.container-price-sm {
+
+  border-radius: 12px;
+  background: #8D2B22;
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  padding: 0%;
+  text-align: center;
+  width: 17%;
+}
+
+.container-price-sm>p {
+  margin: 5px
 }
