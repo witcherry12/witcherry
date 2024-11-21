@@ -68,7 +68,7 @@ export const Bebidas = () => {
                   </div>
                 </li>
               </ul>
-              <ul style={{ marginTop: '50px' }} className="lista-tarjeta">
+              <ul style={{ marginTop: '30px' }} className="lista-tarjeta">
                 <li>
                   <div className="item-tarjeta">
                     <p className="p-white">Tizana</p>
@@ -137,7 +137,7 @@ export const Bebidas = () => {
             <CardContent>
               <Grid container spacing={2}>
                 <Grid item xs={6}>
-                  <ul className="lista-tajeta">
+                  <ul className="lista-tarjeta">
                     <li>
                       <p className="p-white">Vainilla</p>
                     </li>

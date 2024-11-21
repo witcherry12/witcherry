@@ -25,17 +25,6 @@ body {
   font-family: "Roboto";
 }
 
-.lista-tajeta {
-  margin-left: 0px;
-  padding-left: 0px;
-}
-
-.item-tarjeta {
-  display: flex;
-  align-items: center;
-  gap: 10px 20px;
-}
-
 li {
   color: white;
 }
@@ -209,15 +198,31 @@ h1 {
   background: #8D2B22;
   color: #FFF;
   font-family: Poppins;
-  font-size: 12px;
+  font-size: 15px;
   font-style: normal;
   font-weight: 600;
   line-height: 120%;
   padding: 0%;
   text-align: center;
-  width: 17%;
+  width: 24%;
 }
 
 .container-price-sm>p {
   margin: 5px
+}
+
+.lista-tarjeta {
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+.lista-tarjeta>li {
+  margin-bottom: 4px;
+}
+
+.item-tarjeta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-content: center;
 }
