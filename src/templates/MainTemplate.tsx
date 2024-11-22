@@ -25,7 +25,7 @@ export const MainTemplate = () => {
       <Box maxWidth="sm" sx={{ display: "flex" }}>
         <CssBaseline />
         <Menu />
-        <Container sx={{ mt: 4, mb: 4, width: "80%" }}>
+        <Container sx={{ mt: 4, width: "80%" }}>
           <Routes>
             <Route path="/waffles" element={<Waffles />} />
             <Route path="/desayunos" element={<Desayunos />} />
