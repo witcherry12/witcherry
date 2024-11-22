@@ -16,7 +16,7 @@ export const Menu = () => {
   const navigate = useNavigate();
 
   const handleClickLinkHome = () => {
-     navigate("/menu/main", {replace:true});
+    navigate("/menu/main", { replace: true });
   };
 
   useEffect(() => {

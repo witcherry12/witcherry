@@ -6,7 +6,7 @@ import santaClara from "../assets/santa_clara.svg";
 export const Bebidas = () => {
   return (
     <>
-      <Fade>
+      <Fade style={{ width: "100%" }}>
         <div>
           <Title title={"Elixirs"} />
           <Paragraph
@@ -39,10 +39,9 @@ export const Bebidas = () => {
                     <div className="container-price-sm">
                       <p>
                         <sup className="sub-text-sm">$</sup>
-                        50.<sup className="sub-text-sm">00</sup>
+                        40.<sup className="sub-text-sm">00</sup>
                       </p>
                     </div>
-
                   </div>
                 </li>
                 <li>
@@ -75,7 +74,7 @@ export const Bebidas = () => {
                     <div className="container-price-sm">
                       <p>
                         <sup className="sub-text-sm">$</sup>
-                        50.<sup className="sub-text-sm">00</sup>
+                        45.<sup className="sub-text-sm">00</sup>
                       </p>
                     </div>
                   </div>
@@ -86,7 +85,7 @@ export const Bebidas = () => {
                     <div className="container-price-sm">
                       <p>
                         <sup className="sub-text-sm">$</sup>
-                        50.<sup className="sub-text-sm">00</sup>
+                        25.<sup className="sub-text-sm">00</sup>
                       </p>
                     </div>
                   </div>
@@ -97,7 +96,7 @@ export const Bebidas = () => {
                     <div className="container-price-sm">
                       <p>
                         <sup className="sub-text-sm">$</sup>
-                        50.<sup className="sub-text-sm">00</sup>
+                        25.<sup className="sub-text-sm">00</sup>
                       </p>
                     </div>
                   </div>
@@ -108,7 +107,7 @@ export const Bebidas = () => {
                     <div className="container-price-sm">
                       <p>
                         <sup className="sub-text-sm">$</sup>
-                        50.<sup className="sub-text-sm">00</sup>
+                        15.<sup className="sub-text-sm">00</sup>
                       </p>
                     </div>
                   </div>

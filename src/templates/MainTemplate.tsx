@@ -32,7 +32,7 @@ export const MainTemplate = () => {
             <Route path="/bebidas" element={<Bebidas />} />
             <Route path="/postres" element={<Postres />} />
             <Route path="/promos" element={<Promos />} />
-            <Route path="/Main" element={<Main/>} />
+            <Route path="/Main" element={<Main />} />
             <Route path="/*" element={<Navigate to="/witcherry/Home" />} />
           </Routes>
         </Container>
