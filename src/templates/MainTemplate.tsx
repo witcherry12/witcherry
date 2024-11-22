@@ -85,7 +85,7 @@ export const MainTemplate = () => {
                       <div className="card-footer">
                         <div className="container-price">
                           <p>
-                            <sup className="sub-text">$</sup>0.
+                            <sup className="sub-text">$</sup>30.
                             <sup className="sub-text">00</sup>
                           </p>
                         </div>
@@ -116,7 +116,7 @@ export const MainTemplate = () => {
                         <div className="card-footer">
                           <div className="container-price">
                             <p>
-                              <sup className="sub-text">$</sup>0.
+                              <sup className="sub-text">$</sup>20.
                               <sup className="sub-text">00</sup>
                             </p>
                           </div>
